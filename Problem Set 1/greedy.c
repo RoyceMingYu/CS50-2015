@@ -12,7 +12,7 @@ int main(void)
     int quarters = 0;
     int coins = 0;
     
-    printf("O hai! How much change is owed?\n");
+    printf("Hello! How much change is owed?\n");
     change = GetFloat();
     
     if (change > 0)
@@ -29,11 +29,11 @@ int main(void)
     }
     else
     {
-        printf("The customer hasnt paid enough money!>_>\n");
+        printf("The customer hasnt paid enough money!\n");
     }
     if (change < 0)
     {
-        printf("The customer cannot have negative change");
+        printf("The customer cannot have negative change.");
         GetFloat();
     }
     return 0;
