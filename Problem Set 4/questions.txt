@@ -1,0 +1,22 @@
+0.  BMP: 4 billion, GIF: 256, JPEG: 16 million, PNG: 16 million.
+1.  GIF
+2.  Lossy compression reduces file size by removing some infomation, while lossless uses a reversable algorithim to compress.
+3.  JPEG
+4.  The address to the file is deleted, but the actual file still remains on the hard drive
+5.  Delete files with the secure delete option, which fills all of the data with 0s.
+6.  It is a header file that declares integer types' specified widths.
+7.  For specific number usage.
+8.  BYTE is 1 byte, DWORD is 4 bytes, LONG is 4 bytes, WORD is 2 bytes
+9.  The first two bytes of a BMP is a WORD and denotes bfType, which specifies the file type. It must be
+ 	set to the signature word BM (0x4D42) to indicate bitmap.
+10. bfSize specifies the size, in bytes, of the bitmap file while biSize specifies the size of the structure in bytes.
+11. If biHeight is negative, the bitmap is a top-down device-independent bitmap and its origin is the upper left corner.
+12. The biBitCount member of the BITMAPINFOHEADER structure determines the number of bits that define each pixel and 
+    the maximum number of colors in the bitmap.
+13. Not enough disk space, no authoritation to create outfile.
+14. Since there will be only 1 BITMAPINFOHEADER inside a bmp, the fread should only read 1 set of sizeof(BITMAPFILEHEADER).
+15. 1
+16. The fseek() function sets the file position indicator for the inptr pointed to by inptr. 
+17. This is an integer constant which, when used as the whence argument to the fseek or fseeko function,
+	specifies that the offset provided is relative to the current file position
+18. Rob Bowden.
